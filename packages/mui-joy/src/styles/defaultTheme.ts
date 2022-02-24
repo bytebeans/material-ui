@@ -205,7 +205,7 @@ export const darkColorSystem = {
 const baseDesignTokens = {
   ...lightColorSystem,
   radius: {
-    xs: '4px',
+    xs: '3px',
     sm: '8px',
     md: '12px',
     lg: '16px',
