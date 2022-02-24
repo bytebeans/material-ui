@@ -1,6 +1,6 @@
 {
-  "version": "5.4.3",
-  "private": true,
+  "version": "5.4.3-1",
+  "private": false,
   "scripts": {
     "proptypes": "cross-env BABEL_ENV=development babel-node --extensions \".tsx,.ts,.js\" ./scripts/generateProptypes.ts",
     "deduplicate": "node scripts/deduplicate.js",
@@ -223,5 +223,24 @@
     "docs",
     "docs/packages/*",
     "test"
-  ]
+  ],
+  "name": "@bytebeans/core",
+  "description": "<!-- markdownlint-disable-next-line --> <p align=\"center\">   <a href=\"https://mui.com/\" rel=\"noopener\" target=\"_blank\"><img width=\"150\" src=\"https://mui.com/static/logo.svg\" alt=\"MUI logo\"></a> </p>",
+  "main": ".eslintrc.js",
+  "private": false,
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytebeans/material-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bytebeans/material-ui/issues"
+  },
+  "homepage": "https://github.com/bytebeans/material-ui#readme"
 }
