@@ -7,7 +7,7 @@ describe('borders', () => {
       borderRadius: 1,
     });
     expect(output).to.deep.equal({
-      borderRadius: 4,
+      borderRadius: 3,
     });
   });
 

@@ -340,7 +340,7 @@ describe('styleFunctionSx', () => {
       expect(result).to.deep.equal([
         {
           backgroundColor: 'background.paper',
-          borderRadius: 4,
+          borderRadius: 3,
           boxShadow: 1,
           minWidth: 300,
           padding: '20px',
